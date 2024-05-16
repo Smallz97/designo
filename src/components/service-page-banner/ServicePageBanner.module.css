@@ -1,0 +1,14 @@
+.serviceTitle {
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  font-weight: var(--medium-font);
+}
+
+.serviceDescription {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: var(--small-font);
+}

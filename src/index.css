@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+:root {
+  /* defining fonts as variables */
+  --small-font: 400;
+  --medium-font: 500;
+  --large-font: 700;
+
+  /* defining colors as variables */
+  --black: rgb(29, 28, 30); /* HEX: #1D1C1E */
+  --peach: rgb(231, 129, 107); /* HEX: #E7816B */
+  --white: rgb(255, 255, 255); /* HEX: #FFFFFF */
+  --dark-grey: rgb(51, 49, 54); /* HEX: #333136 */
+  --opac-black: rgba(0, 0, 0, 1); /* HEX: #000000 */
+  --cream: rgba(253, 243, 240, 1); /* HEX: #FDF3F0; */
+  --light-grey: rgb(241, 243, 245); /* HEX: #F1F3F5 */
+  --light-peach: rgb(255, 173, 155); /* HEX: #FFAD98 */
+}
+
+body {
+  max-width: 100vw;
+  background: var(--white);
+  font-family: "Jost", sans-serif;
+}

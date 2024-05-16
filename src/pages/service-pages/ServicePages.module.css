@@ -1,0 +1,28 @@
+.servicePage {
+  padding-bottom: 17.87rem;
+}
+
+section {
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.bannerSection {
+  color: var(--white);
+  padding-top: 6.56rem;
+  padding-bottom: 6.56rem;
+  background: var(--peach);
+}
+
+.portfolio {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.services {
+  display: grid;
+  row-gap: 1.5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}

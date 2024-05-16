@@ -1,0 +1,38 @@
+.navbar {
+  height: 6rem;
+  width: 100vw;
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.brandName {
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+  font-weight: var(--large-font);
+}
+
+.navItems {
+  width: 1.5rem;
+  height: 1.25rem;
+}
+
+.navlink {
+  text-decoration: none;
+  color: var(--dark-grey);
+}

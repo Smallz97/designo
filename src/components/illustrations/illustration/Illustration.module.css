@@ -1,0 +1,31 @@
+.illustration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.illustration:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.illustrationImage {
+  display: flex;
+  width: 12.625rem;
+  height: 12.625rem;
+  margin-bottom: 3rem;
+}
+
+.illustrationName {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+  font-weight: var(--medium-font);
+}
+
+.illustrationText {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: var(--small-font);
+}
