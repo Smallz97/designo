@@ -1,4 +1,4 @@
-import Home from "../../../../pages/app-pages/our-company/OurCompany";
+import Home from "../../../pages/app/our-company/OurCompany";
 
 let OurCompanyRoute = {
   path: "/",

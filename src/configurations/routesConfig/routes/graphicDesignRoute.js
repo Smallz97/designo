@@ -2,7 +2,7 @@ let GraphicDesignRoute = {
   path: "/graphic-design",
   async lazy() {
     let { GraphicDesign } = await import(
-      "../../../../pages/service-pages/GraphicDesign"
+      "../../../pages/services/GraphicDesign"
     );
     return { Component: GraphicDesign };
   },

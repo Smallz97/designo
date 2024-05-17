@@ -1,15 +1,15 @@
 import { Component } from 'react'
 import ServicesBanner from '../../components/service-page-banner/ServicePageBanner'
-import WebOne from '../../assets/images/projects/web/webOne.png'
-import WebTwo from '../../assets/images/projects/web/webTwo.png'
-import WebThree from '../../assets/images/projects/web/webThree.png'
-import WebFour from '../../assets/images/projects/web/webFour.png'
-import WebFive from '../../assets/images/projects/web/webFive.png'
-import WebSix from '../../assets/images/projects/web/webSix.png'
+import FirstImage from '../../assets/images/projects/web/firstImage.png'
+import SecondImage from '../../assets/images/projects/web/secondImage.png'
+import ThirdImage from '../../assets/images/projects/web/thirdImage.png'
+import FourthImage from '../../assets/images/projects/web/fourthImage.png'
+import FifthImage from '../../assets/images/projects/web/fifthImage.png'
+import SixthImage from '../../assets/images/projects/web/sixthImage.png'
 import ProjectCard from '../../components/project-card/ProjectCard'
-import AppDesign from "../../assets/images/services/appDesign.png"
-import GraphicDesign from "../../assets/images/services/graphicDesign.png"
-import ServiceCard from "../../components/service-card/ServiceCard";
+import AppDesign from '../../assets/images/services/appDesign.png'
+import GraphicDesign from '../../assets/images/services/graphicDesign.png'
+import ServiceCard from '../../components/service-card/ServiceCard'
 
 import styles from './ServicePages.module.css'
 
@@ -22,32 +22,32 @@ export const WebDesign = () => {
     const projectsArray = [
         {
             name: "express",
-            image: WebOne,
+            image: FirstImage,
             description: "A multi-carrier shipping website for ecommerce businesses",
         },
         {
             name: "transfer",
-            image: WebTwo,
+            image: SecondImage,
             description: "Site for low-cost money transfers and sending money within seconds",
         },
         {
             name: "photon",
-            image: WebThree,
+            image: ThirdImage,
             description: "A state-of-the-art music player with high-resolution audio and DSP effects",
         },
         {
             name: "builder",
-            image: WebFour,
+            image: FourthImage,
             description: "Connects users with local contractors based on their location",
         },
         {
             name: "blogr",
-            image: WebFive,
+            image: FifthImage,
             description: "Blogr is a platform for creating an online blog or publication",
         },
         {
             name: "camp",
-            image: WebSix,
+            image: SixthImage,
             description: "Get expert training in coding, data, design, and digital marketing",
         },
     ];

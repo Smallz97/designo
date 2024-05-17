@@ -1,12 +1,12 @@
 import { Component } from 'react'
 import ServicesHeader from '../../components/service-page-banner/ServicePageBanner'
-import FirstImage from '../../assets/images/projects/graphics/first.png'
-import SecondImage from '../../assets/images/projects/graphics/second.png'
-import ThirdImage from '../../assets/images/projects/graphics/third.png'
+import FirstImage from '../../assets/images/projects/graphics/firstImage.png'
+import SecondImage from '../../assets/images/projects/graphics/secondImage.png'
+import ThirdImage from '../../assets/images/projects/graphics/thirdImage.png'
 import ProjectCard from '../../components/project-card/ProjectCard'
-import WebDesign from "../../assets/images/services/webDesign.png"
-import AppDesign from "../../assets/images/services/appDesign.png"
-import ServiceCard from "../../components/service-card/ServiceCard";
+import WebDesign from '../../assets/images/services/webDesign.png'
+import AppDesign from '../../assets/images/services/appDesign.png'
+import ServiceCard from '../../components/service-card/ServiceCard'
 
 import styles from './ServicePages.module.css'
 

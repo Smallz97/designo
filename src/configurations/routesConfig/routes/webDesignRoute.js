@@ -1,9 +1,7 @@
 let WebDesignRoute = {
   path: "/web-design",
   async lazy() {
-    let { WebDesign } = await import(
-      "../../../../pages/service-pages/WebDesign"
-    );
+    let { WebDesign } = await import("../../../pages/services/WebDesign");
     return { Component: WebDesign };
   },
 };

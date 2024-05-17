@@ -1,26 +1,26 @@
-import Phone from "../../../assets/images/pages/hero/phone.png"
-import WebDesign from "../../../assets/images/services/webDesign.png"
-import AppDesign from "../../../assets/images/services/appDesign.png"
-import GraphicDesign from "../../../assets/images/services/graphicDesign.png"
-import ServiceCard from "../../../components/service-card/ServiceCard"
-import IllustrationsList from "../../../components/illustrations/illustrations-list/IllustrationsList";
-import styles from "./OurCompany.module.css";
+import Phone from '../../../assets/images/pages/hero/phone.png'
+import WebDesignImage from '../../../assets/images/services/webDesign.png'
+import AppDesignImage from '../../../assets/images/services/appDesign.png'
+import GraphicDesignImage from '../../../assets/images/services/graphicDesign.png'
+import ServiceCard from '../../../components/service-card/ServiceCard'
+import IllustrationsList from '../../../components/illustrations/illustrations-list/IllustrationsList'
+import styles from './OurCompany.module.css'
 
 const Home = () => {
     const servicesArray = [
         {
             name: "Web Design",
-            image: WebDesign,
+            image: WebDesignImage,
             link: "/web-design",
         },
         {
             name: "App Design",
-            image: AppDesign,
+            image: AppDesignImage,
             link: "/app-design",
         },
         {
             name: "Graphic Design",
-            image: GraphicDesign,
+            image: GraphicDesignImage,
             link: "/graphic-design",
         },
     ];

@@ -1,9 +1,7 @@
 let ContactsRoute = {
   path: "/contacts",
   async lazy() {
-    let { Contacts } = await import(
-      "../../../../pages/app-pages/contacts/Contacts"
-    );
+    let { Contacts } = await import("../../../pages/app/contacts/Contacts");
     return { Component: Contacts };
   },
 };
