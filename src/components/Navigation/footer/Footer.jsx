@@ -1,6 +1,7 @@
 // import Logo from './assets/logo/brandLogo.png'
-import { navLinks } from '../../assets/data/data'
-import { FacebookIcon, YoutubeIcon, TwitterIcon, PinterestIcon, InstagramIcon } from '../../assets/icons/Icons'
+import { navLinks } from '../../../assets/data/data'
+import Button from '../../Buttons/Button';
+import { FacebookIcon, YoutubeIcon, TwitterIcon, PinterestIcon, InstagramIcon } from '../../../assets/icons/Icons'
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                 <div className={styles.smallText}>
                     Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
                 </div>
-                <button className={styles.ctaButton}>get in touch</button>
+                <Button text={`get in touch`} />
             </div>
             <div className={styles.footerBar}>
                 <div className={styles.brand}>

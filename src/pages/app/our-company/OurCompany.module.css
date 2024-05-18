@@ -2,53 +2,10 @@
   padding-bottom: 19.40375rem;
 }
 
-section {
-  text-align: center;
+.servicesSection,
+.qualitiesSection {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.heroSection {
-  padding-top: 5rem;
-  color: var(--white);
-  background: var(--peach);
-}
-
-.heroHeading {
-  font-size: 2rem;
-  line-height: 2.25rem;
-  font-weight: var(--medium-font);
-}
-
-.heroText {
-  font-size: 0.9375rem;
-  line-height: 1.5625rem;
-  margin: 0.88rem 0 1.5rem 0;
-  font-weight: var(--small-font);
-}
-
-.ctaButton {
-  width: 9.5rem;
-  height: 3.5rem;
-  font-size: 0.9375rem;
-  border-radius: 0.5rem;
-  color: var(--dark-grey);
-  text-transform: uppercase;
-  letter-spacing: 0.0625rem;
-  font-weight: var(--medium-font);
-}
-
-.heroButton {
-  margin-bottom: 5rem;
-}
-
-.heroImageContainer {
-  display: flex;
-}
-
-.heroImageContainer img {
-  width: 100%;
-  height: auto;
 }
 
 .servicesSection {
@@ -56,13 +13,13 @@ section {
   padding-bottom: 7.5rem;
 }
 
-.illustrationsSection {
-  color: var(--dark-grey);
-}
-
 .services {
   display: grid;
   row-gap: 1.5rem;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
+}
+
+.qualitiesSection {
+  color: var(--dark-grey);
 }

@@ -1,0 +1,10 @@
+.button {
+  width: 9.5rem;
+  height: 3.5rem;
+  font-size: 0.9375rem;
+  border-radius: 0.5rem;
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  font-weight: var(--medium-font);
+}

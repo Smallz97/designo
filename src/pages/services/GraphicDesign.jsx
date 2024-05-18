@@ -1,18 +1,18 @@
 import { Component } from 'react'
-import ServicesHeader from '../../components/service-page-banner/ServicePageBanner'
-import FirstImage from '../../assets/images/projects/graphics/firstImage.png'
-import SecondImage from '../../assets/images/projects/graphics/secondImage.png'
-import ThirdImage from '../../assets/images/projects/graphics/thirdImage.png'
-import ProjectCard from '../../components/project-card/ProjectCard'
-import WebDesign from '../../assets/images/services/webDesign.png'
-import AppDesign from '../../assets/images/services/appDesign.png'
-import ServiceCard from '../../components/service-card/ServiceCard'
+import ServicesHeader from '../../components/Banners/service-pages/ServicePageBanner'
+import ProjectCard from '../../components/Cards/project-card/ProjectCard'
+import FirstImage from '../../assets/images/project-images/graphics/firstImage.png'
+import SecondImage from '../../assets/images/project-images/graphics/secondImage.png'
+import ThirdImage from '../../assets/images/project-images/graphics/thirdImage.png'
+import ServiceCard from '../../components/Cards/service-card/ServiceCard'
+import WebDesign from '../../assets/images/service-images/webDesign.png'
+import AppDesign from '../../assets/images/service-images/appDesign.png'
 
 import styles from './ServicePages.module.css'
 
 export const GraphicDesign = () => {
     const headerContent = {
-        title: "grapchic design",
+        title: "graphic design",
         description: "We deliver eye-catching branding materials that are tailored to meet your business objectives."
     };
 
@@ -52,12 +52,12 @@ export const GraphicDesign = () => {
             <section className={styles.bannerSection}>
                 <ServicesHeader title={headerContent.title} description={headerContent.description} />
             </section>
-            <section className={styles.portfolio}>
+            <section className={styles.portfolioSection}>
                 {projectsArray.map((project, index) => (
                     <ProjectCard key={index} image={project.image} name={project.name} description={project.description} />
                 ))}
             </section>
-            <section className={styles.services}>
+            <section className={styles.servicesSection}>
                 {otherServicesArray.map((service, index) => (
                     <ServiceCard key={index} image={service.image} name={service.name} link={service.link} />
                 ))}

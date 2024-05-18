@@ -1,0 +1,32 @@
+.aboutpageBanner {
+  color: var(--white);
+  text-align: center;
+  background: var(--peach);
+}
+
+.aboutpageImageContainer {
+  display: flex;
+  height: 20rem;
+}
+
+.aboutpageImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutpageTextwrapper {
+  padding: 5rem 1.5rem;
+}
+
+.aboutpageHeading {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: var(--normal-font);
+}
+
+.aboutpageHerotext {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: var(--small-font);
+}

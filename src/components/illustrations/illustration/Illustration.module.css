@@ -1,11 +1,16 @@
 .illustration {
   display: flex;
+  text-align: center;
   align-items: center;
   flex-direction: column;
 }
 
 .illustration:not(:last-child) {
   margin-bottom: 5rem;
+}
+
+.illustration.locationsIllustration:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .illustrationImage {
@@ -22,6 +27,10 @@
   letter-spacing: 0.3125rem;
   text-transform: uppercase;
   font-weight: var(--medium-font);
+}
+
+.locationsIllustration .illustrationName {
+  margin-bottom: 0;
 }
 
 .illustrationText {

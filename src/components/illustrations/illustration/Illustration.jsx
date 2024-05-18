@@ -1,15 +1,15 @@
 import styles from './Illustration.module.css'
 
-const Illustration = ({ name, text, imageLink }) => {
+const QualityIllustration = ({ name, text, imageLink, type }) => {
     return (
-        <div className={styles.illustration}>
+        <div className={`${styles.illustration} ${type === 'locations' ? styles.locationsIllustration : ''}`}>
             <div className={styles.illustrationImage}>
                 <img src={`/${imageLink}`} alt={`${name} illustration`} />
             </div>
             <div className={styles.illustrationName}>{name}</div>
-            <div className={styles.illustrationText}>{text}</div>
+            {text && <div className={styles.illustrationText}>{text}</div>}
         </div>
     );
 }
 
-export default Illustration;
+export default QualityIllustration;

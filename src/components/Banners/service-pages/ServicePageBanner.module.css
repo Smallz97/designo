@@ -1,3 +1,10 @@
+.servicespageBanner {
+  color: var(--white);
+  text-align: center;
+  padding: 6.56rem 1.5rem;
+  background: var(--peach);
+}
+
 .serviceTitle {
   font-size: 2rem;
   font-style: normal;

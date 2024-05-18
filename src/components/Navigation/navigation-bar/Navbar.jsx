@@ -1,8 +1,8 @@
 // import Logo from './assets/logo/brandLogo.png'
 import { NavLink } from 'react-router-dom';
-import styles from './Header.module.css'
+import styles from './Navbar.module.css'
 
-const Header = () => {
+const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.brand}>
@@ -14,4 +14,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Navbar;

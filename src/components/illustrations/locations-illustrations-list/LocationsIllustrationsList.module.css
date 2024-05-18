@@ -1,0 +1,7 @@
+.locationsIllustrationWrapper {
+  text-align: center;
+}
+
+.locationsIllustrationWrapper:not(:last-child) {
+  margin-bottom: 3rem;
+}

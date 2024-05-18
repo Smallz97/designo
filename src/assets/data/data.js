@@ -1,4 +1,4 @@
-export const illustrations = [
+export const qualitiesIllustrations = [
   {
     name: "passionate",
     imageLink: "assets/illustrations/passionate.png",
@@ -16,6 +16,19 @@ export const illustrations = [
   },
 ];
 
-export const servicePageHeaders = []
+export const locationsIllustrations = [
+  {
+    name: "canada",
+    imageLink: "assets/illustrations/canada.png",
+  },
+  {
+    name: "australia",
+    imageLink: "assets/illustrations/australia.png",
+  },
+  {
+    name: "united kingdom",
+    imageLink: "assets/illustrations/unitedKingdom.png",
+  },
+];
 
 export const navLinks = ["our company", "locations", "contact"];
