@@ -2,24 +2,13 @@
   padding-bottom: 19.40375rem;
 }
 
-.servicesSection,
-.qualitiesSection {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .servicesSection {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
 
-.services {
-  display: grid;
-  row-gap: 1.5rem;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-}
-
-.qualitiesSection {
-  color: var(--dark-grey);
+.servicesSection,
+.qualitiesIllustrationsSection {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

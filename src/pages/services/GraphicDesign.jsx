@@ -1,12 +1,10 @@
 import { Component } from 'react'
-import ServicesHeader from '../../components/Banners/service-pages/ServicePageBanner'
+import Header from '../../components/Headers/service-pages/ServicePageHeader'
 import ProjectCard from '../../components/Cards/project-card/ProjectCard'
-import FirstImage from '../../assets/images/project-images/graphics/firstImage.png'
-import SecondImage from '../../assets/images/project-images/graphics/secondImage.png'
-import ThirdImage from '../../assets/images/project-images/graphics/thirdImage.png'
-import ServiceCard from '../../components/Cards/service-card/ServiceCard'
-import WebDesign from '../../assets/images/service-images/webDesign.png'
-import AppDesign from '../../assets/images/service-images/appDesign.png'
+import FirstImage from '../../assets/images/project-card-images/graphics/firstImage.png'
+import SecondImage from '../../assets/images/project-card-images/graphics/secondImage.png'
+import ThirdImage from '../../assets/images/project-card-images/graphics/thirdImage.png'
+import ServicesList from '../../components/Cards/service-card/ServicesList'
 
 import styles from './ServicePages.module.css'
 
@@ -34,33 +32,18 @@ export const GraphicDesign = () => {
         },
     ]
 
-    const otherServicesArray = [
-        {
-            name: "app Design",
-            image: AppDesign,
-            link: "/app-design",
-        },
-        {
-            name: "Web Design",
-            image: WebDesign,
-            link: "/web-design",
-        },
-    ];
-
     return (
         <div className={styles.servicePage}>
-            <section className={styles.bannerSection}>
-                <ServicesHeader title={headerContent.title} description={headerContent.description} />
+            <section id='header-section'>
+                <Header title={headerContent.title} description={headerContent.description} />
             </section>
-            <section className={styles.portfolioSection}>
+            <section id='portfolio-section' className={styles.portfolioSection}>
                 {projectsArray.map((project, index) => (
                     <ProjectCard key={index} image={project.image} name={project.name} description={project.description} />
                 ))}
             </section>
-            <section className={styles.servicesSection}>
-                {otherServicesArray.map((service, index) => (
-                    <ServiceCard key={index} image={service.image} name={service.name} link={service.link} />
-                ))}
+            <section id='other-services-section' className={styles.otherServicesSection}>
+                <ServicesList />
             </section>
         </div>
     );

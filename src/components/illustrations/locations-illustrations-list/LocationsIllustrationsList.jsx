@@ -1,4 +1,5 @@
 import { locationsIllustrations } from '../../../assets/data/data';
+import { Link } from 'react-router-dom';
 import Button from '../../Buttons/Button';
 import Illustration from '../illustration/Illustration';
 
@@ -11,14 +12,15 @@ const LocationsIllustrationsList = () => {
             {
                 locationsIllustrations.map((illustration, index) => {
                     return (
-                        <div className={styles.locationsIllustrationWrapper}>
+                        <div key={index} className={styles.locationsIllustrationWrapper}>
                             <Illustration
-                                key={index}
                                 type={`locations`}
                                 name={locationsIllustrations[index].name}
                                 imageLink={locationsIllustrations[index].imageLink}
                             />
-                            <Button text={`see location`} />
+                            <Link>
+                                <Button text={`see location`} textColor={`#FFFFFF`} backgroundColor={`#E7816B`} />
+                            </Link>
                         </div>
                     );
                 })

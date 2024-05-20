@@ -1,0 +1,6 @@
+.services {
+  display: grid;
+  row-gap: 1.5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}

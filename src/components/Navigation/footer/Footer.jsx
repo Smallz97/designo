@@ -3,6 +3,7 @@ import { navLinks } from '../../../assets/data/data'
 import Button from '../../Buttons/Button';
 import { FacebookIcon, YoutubeIcon, TwitterIcon, PinterestIcon, InstagramIcon } from '../../../assets/icons/Icons'
 import styles from './Footer.module.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const socialLinks = [<FacebookIcon />, <YoutubeIcon />, <TwitterIcon />, <PinterestIcon />, <InstagramIcon />];
@@ -14,7 +15,9 @@ const Footer = () => {
                 <div className={styles.smallText}>
                     Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
                 </div>
-                <Button text={`get in touch`} />
+                <Link to='/contact-us'>
+                    <Button text={`get in touch`} textColor={`#333136`} backgroundColor={`#FFFFFF`} />
+                </Link>
             </div>
             <div className={styles.footerBar}>
                 <div className={styles.brand}>

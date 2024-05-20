@@ -2,20 +2,13 @@
   padding-bottom: 17.87rem;
 }
 
-.portfolioSection,
-.servicesSection {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .portfolioSection {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
-.servicesSection {
-  display: grid;
-  row-gap: 1.5rem;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
+.portfolioSection,
+.otherServicesSection {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

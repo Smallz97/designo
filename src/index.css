@@ -23,6 +23,7 @@ button {
   --cream: rgba(253, 243, 240, 1); /* HEX: #FDF3F0; */
   --light-grey: rgb(241, 243, 245); /* HEX: #F1F3F5 */
   --light-peach: rgb(255, 173, 155); /* HEX: #FFAD98 */
+  --peach-gradient: linear-gradient(rgba(93, 2, 2, 0), rgba(93, 2, 2, 0.5));
 }
 
 body {

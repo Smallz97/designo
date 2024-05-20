@@ -1,11 +1,11 @@
-.servicespageBanner {
+.servicespageHeader {
   color: var(--white);
   text-align: center;
   padding: 6.56rem 1.5rem;
   background: var(--peach);
 }
 
-.serviceTitle {
+.servicespageHeader .heading {
   font-size: 2rem;
   font-style: normal;
   line-height: 2.25rem;
@@ -14,7 +14,7 @@
   font-weight: var(--medium-font);
 }
 
-.serviceDescription {
+.servicepageHeader .text {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: var(--small-font);

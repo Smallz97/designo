@@ -1,43 +1,32 @@
-.homepageBanner {
+.homepageHeader {
   text-align: center;
   color: var(--white);
   background: var(--peach);
   padding: 5rem 1.5rem 0 1.5rem;
 }
 
-.homepageTextwrapper {
+.homepageHeader .textWrapper {
   padding-bottom: 5rem;
 }
 
-.homepageHeading {
+.homepageHeader .textWrapper .heading {
   font-size: 2rem;
   line-height: 2.25rem;
   font-weight: var(--medium-font);
 }
 
-.homepageHerotext {
+.homepageHeader .textWrapper .text {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   margin: 0.88rem 0 1.5rem 0;
   font-weight: var(--small-font);
 }
 
-.ctaButton {
-  width: 9.5rem;
-  height: 3.5rem;
-  font-size: 0.9375rem;
-  border-radius: 0.5rem;
-  color: var(--dark-grey);
-  text-transform: uppercase;
-  letter-spacing: 0.0625rem;
-  font-weight: var(--medium-font);
-}
-
-.homepageImageContainer {
+.homepageHeader .imageContainer {
   display: flex;
 }
 
-.homepageImageContainer img {
+.homepageHeader .imageContainer img {
   width: 100%;
   height: auto;
 }

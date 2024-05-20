@@ -1,7 +1,7 @@
 import AppLayout from "../../components/Layout/AppLayout";
 import OurCompanyRoute from "./routes/ourCompanyRoute";
 import LocationsRoute from "./routes/locationsRoute";
-import ContactsRoute from "./routes/contactsRoute";
+import ContactUsRoute from "./routes/contactUsRoute";
 import AboutUsRoute from "./routes/aboutUsRoute";
 import WebDesignRoute from "./routes/webDesignRoute";
 import AppDesignRoute from "./routes/appDesignRoute";
@@ -12,7 +12,7 @@ let Applayout = {
   children: [
     OurCompanyRoute,
     LocationsRoute,
-    ContactsRoute,
+    ContactUsRoute,
     AboutUsRoute,
     WebDesignRoute,
     AppDesignRoute,

@@ -1,9 +1,13 @@
 .aboutUsPage {
-  padding-bottom: 19rem;
+  padding-bottom: 19.34375rem;
 }
 
-.locationsSection {
+.locationsIllustrationsSection {
   padding-top: 7.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.secondImageSection {
+  padding-top: 7.5rem;
 }

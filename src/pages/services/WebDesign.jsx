@@ -1,15 +1,13 @@
 import { Component } from 'react'
-import ServicesBanner from '../../components/Banners/service-pages/ServicePageBanner'
+import Header from '../../components/Headers/service-pages/ServicePageHeader'
 import ProjectCard from '../../components/Cards/project-card/ProjectCard'
-import FirstImage from '../../assets/images/project-images/web/firstImage.png'
-import SecondImage from '../../assets/images/project-images/web/secondImage.png'
-import ThirdImage from '../../assets/images/project-images/web/thirdImage.png'
-import FourthImage from '../../assets/images/project-images/web/fourthImage.png'
-import FifthImage from '../../assets/images/project-images/web/fifthImage.png'
-import SixthImage from '../../assets/images/project-images/web/sixthImage.png'
-import ServiceCard from '../../components/Cards/service-card/ServiceCard'
-import AppDesign from '../../assets/images/service-images/appDesign.png'
-import GraphicDesign from '../../assets/images/service-images/graphicDesign.png'
+import FirstImage from '../../assets/images/project-card-images/web/firstImage.png'
+import SecondImage from '../../assets/images/project-card-images/web/secondImage.png'
+import ThirdImage from '../../assets/images/project-card-images/web/thirdImage.png'
+import FourthImage from '../../assets/images/project-card-images/web/fourthImage.png'
+import FifthImage from '../../assets/images/project-card-images/web/fifthImage.png'
+import SixthImage from '../../assets/images/project-card-images/web/sixthImage.png'
+import ServicesList from '../../components/Cards/service-card/ServicesList'
 
 import styles from './ServicePages.module.css'
 
@@ -52,33 +50,18 @@ export const WebDesign = () => {
         },
     ];
 
-    const otherServicesArray = [
-        {
-            name: "App Design",
-            image: AppDesign,
-            link: "/app-design",
-
-        },
-        {
-            name: "Graphic Design",
-            image: GraphicDesign,
-            link: "/graphic-design",
-        },
-    ];
     return (
         <div className={styles.servicePage}>
-            <section className={styles.bannerSection}>
-                <ServicesBanner title={headerContent.title} description={headerContent.description} />
+            <section id='header-section'>
+                <Header title={headerContent.title} description={headerContent.description} />
             </section>
-            <section className={styles.portfolioSection}>
+            <section id='portfolio-section' className={styles.portfolioSection}>
                 {projectsArray.map((project, index) => (
                     <ProjectCard key={index} image={project.image} name={project.name} description={project.description} />
                 ))}
             </section>
-            <section className={styles.servicesSection}>
-                {otherServicesArray.map((service, index) => (
-                    <ServiceCard key={index} image={service.image} name={service.name} link={service.link} />
-                ))}
+            <section id='other-services-section' className={styles.otherServicesSection}>
+                <ServicesList />
             </section>
         </div>
     );

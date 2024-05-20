@@ -1,31 +1,31 @@
-.aboutpageBanner {
+.aboutpageHeader {
   color: var(--white);
   text-align: center;
   background: var(--peach);
 }
 
-.aboutpageImageContainer {
+.aboutpageHeader .imageContainer {
   display: flex;
   height: 20rem;
 }
 
-.aboutpageImageContainer img {
+.aboutpageHeader .imageContainer img {
   width: 100%;
   height: 100%;
 }
 
-.aboutpageTextwrapper {
+.aboutpageHeader .textwrapper {
   padding: 5rem 1.5rem;
 }
 
-.aboutpageHeading {
+.aboutpageHeader .textwrapper .heading {
   font-size: 2rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
   font-weight: var(--normal-font);
 }
 
-.aboutpageHerotext {
+.aboutpageHeader .textwrapper .text {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: var(--small-font);

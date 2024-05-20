@@ -1,6 +1,6 @@
 import { Component } from "react";
-export const Contacts = () => {
+export const ContactUs = () => {
     return <div>This is the Contact Us Page</div>;
 };
 
-Component.displayName = "Contacts";
+Component.displayName = "Contact Us";
