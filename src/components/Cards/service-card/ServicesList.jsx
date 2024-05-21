@@ -3,17 +3,18 @@ import ServiceCard from './ServiceCard';
 
 import styles from './ServicesList.module.css'
 
-const ServicesList = () => {
+const ServicesList = ({ excludeService }) => {
+    const filteredServices = services.filter(service => service.name !== excludeService);
     return (
         <div className={styles.services}>
             {
-                services.map((service, index) => {
+                filteredServices.map((service, index) => {
                     return (
                         <ServiceCard
                             key={index}
-                            name={services[index].name}
-                            link={services[index].link}
-                            imageLink={services[index].imageLink}
+                            name={filteredServices[index].name}
+                            link={filteredServices[index].link}
+                            imageLink={filteredServices[index].imageLink}
                         />
                     );
                 })

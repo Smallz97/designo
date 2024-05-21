@@ -43,7 +43,7 @@ export const GraphicDesign = () => {
                 ))}
             </section>
             <section id='other-services-section' className={styles.otherServicesSection}>
-                <ServicesList />
+                <ServicesList excludeService={`graphic design`} />
             </section>
         </div>
     );

@@ -1,4 +1,4 @@
-// import Logo from './assets/logo/brandLogo.png'
+import Logo from '../../../assets/logo/logo.png'
 import { navLinks } from '../../../assets/data/data'
 import Button from '../../Buttons/Button';
 import { FacebookIcon, YoutubeIcon, TwitterIcon, PinterestIcon, InstagramIcon } from '../../../assets/icons/Icons'
@@ -21,13 +21,15 @@ const Footer = () => {
             </div>
             <div className={styles.footerBar}>
                 <div className={styles.brand}>
-                    {/* <img src={Logo} alt="brand logo" className={styles.logo} /> */}
+                    <img src={Logo} alt="brand logo" className={styles.logo} />
                     <div className={styles.brandName}>designo</div>
                 </div>
                 <hr className={styles.horizontalLine} />
                 <div className={styles.footerLinks}>
                     {navLinks.map((navlink, index) => (
-                        <div key={index} className={styles.footerLink}>{navlink}</div>
+                        <div key={index} className={styles.footerLink}>
+                            {navlink}
+                        </div>
                     ))}
                 </div>
                 <div className={styles.address}>

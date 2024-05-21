@@ -61,7 +61,7 @@ export const WebDesign = () => {
                 ))}
             </section>
             <section id='other-services-section' className={styles.otherServicesSection}>
-                <ServicesList />
+                <ServicesList excludeService={`web design`} />
             </section>
         </div>
     );
