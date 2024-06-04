@@ -1,9 +1,7 @@
 .navbar {
-  height: 6rem;
-  width: 100vw;
   display: flex;
-  padding: 1.5rem;
   align-items: center;
+  padding: 2.12rem 1.5rem;
   justify-content: space-between;
 }
 
@@ -21,18 +19,45 @@
 
 .brandName {
   font-size: 1.5rem;
-  color: var(--dark-grey);
   letter-spacing: 0.3125rem;
   text-transform: uppercase;
   font-weight: var(--large-font);
 }
 
-.navItems {
-  width: 1.5rem;
-  height: 1.25rem;
+.navLinksWrapper {
+  display: none;
 }
 
 .navlink {
   text-decoration: none;
   color: var(--dark-grey);
+}
+
+@media screen and (min-width: 45rem) {
+  .navbar {
+    padding: 4rem 2.5rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navLinksWrapper {
+    gap: 2.62rem;
+    display: flex;
+  }
+
+  .navbarLink {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    font-weight: var(--small-font);
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .navbar {
+    padding: 4rem 10.31rem;
+  }
 }

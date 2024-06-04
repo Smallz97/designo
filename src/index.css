@@ -15,6 +15,11 @@ button {
   --large-font: 700;
 
   /* defining colors as variables */
+  --first-project-card: #2e3947;
+  --third-project-card: #3f2f83;
+  --fifth-project-card: #853a4d;
+  --second-project-card: #34b7a2;
+  --fourth-project-card: #40125a;
   --black: rgb(29, 28, 30); /* HEX: #1D1C1E */
   --peach: rgb(231, 129, 107); /* HEX: #E7816B */
   --white: rgb(255, 255, 255); /* HEX: #FFFFFF */
@@ -27,7 +32,7 @@ button {
 }
 
 body {
-  max-width: 100vw;
+  width: 100%;
   background: var(--white);
   font-family: "Jost", sans-serif;
 }

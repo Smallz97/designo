@@ -1,10 +1,10 @@
 import styles from './ImageCard.module.css'
 
-const ImageCard = ({ image, title, text }) => {
+const ImageCard = ({ image, title, text, place }) => {
     const textParagraphs = text.split('\n');
 
     return (
-        <div className={styles.imageCard}>
+        <div className={`${styles.imageCard} ${place === 'second' ? styles.secondImageCard : ''}`}>
             <div className={styles.imageContainer}>
                 <img src={image} alt='Description Image' />
             </div>

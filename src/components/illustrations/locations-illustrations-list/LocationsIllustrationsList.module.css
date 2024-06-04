@@ -5,3 +5,32 @@
 .locationsIllustrationWrapper:not(:last-child) {
   margin-bottom: 3rem;
 }
+
+@media screen and (min-width: 45rem) {
+  .locationsList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .locationsIllustrationWrapper {
+    width: 21.875rem;
+  }
+
+  .locationsIllustrationWrapper:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .locationsList {
+    gap: 1.88rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .locationsIllustrationWrapper:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

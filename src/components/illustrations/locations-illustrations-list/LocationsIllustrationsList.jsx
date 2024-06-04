@@ -8,7 +8,7 @@ import styles from './LocationsIllustrationsList.module.css'
 
 const LocationsIllustrationsList = () => {
     return (
-        <>
+        <div className={styles.locationsList}>
             {
                 locationsIllustrations.map((illustration, index) => {
                     return (
@@ -25,7 +25,7 @@ const LocationsIllustrationsList = () => {
                     );
                 })
             }
-        </>
+        </div>
     )
 }
 

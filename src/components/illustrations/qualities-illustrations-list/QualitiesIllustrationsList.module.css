@@ -1,0 +1,6 @@
+@media screen and (min-width: 65rem) {
+  .qualitiesIllustrationsList {
+    gap: 1.87rem;
+    display: flex;
+  }
+}

@@ -16,6 +16,21 @@ export const qualitiesIllustrations = [
   },
 ];
 
+export const locationsIllustrations = [
+  {
+    name: "canada",
+    imageLink: "assets/illustrations/canada.png",
+  },
+  {
+    name: "australia",
+    imageLink: "assets/illustrations/australia.png",
+  },
+  {
+    name: "united kingdom",
+    imageLink: "assets/illustrations/unitedKingdom.png",
+  },
+];
+
 export const services = [
   {
     name: "web design",
@@ -34,18 +49,94 @@ export const services = [
   },
 ];
 
-export const locationsIllustrations = [
+export const webDesignheaderContent = {
+  title: "Web Design",
+  description:
+    "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
+};
+
+export const webDesignProjects = [
   {
-    name: "canada",
-    imageLink: "assets/illustrations/canada.png",
+    name: "express",
+    description: "A multi-carrier shipping website for ecommerce businesses",
   },
   {
-    name: "australia",
-    imageLink: "assets/illustrations/australia.png",
+    name: "transfer",
+    description:
+      "Site for low-cost money transfers and sending money within seconds",
   },
   {
-    name: "united kingdom",
-    imageLink: "assets/illustrations/unitedKingdom.png",
+    name: "photon",
+    description:
+      "A state-of-the-art music player with high-resolution audio and DSP effects",
+  },
+  {
+    name: "builder",
+    description:
+      "Connects users with local contractors based on their location",
+  },
+  {
+    name: "blogr",
+    description:
+      "Blogr is a platform for creating an online blog or publication",
+  },
+  {
+    name: "camp",
+    description:
+      "Get expert training in coding, data, design, and digital marketing",
+  },
+];
+
+export const appDesignheaderContent = {
+  title: "app design",
+  description:
+    "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.",
+};
+
+export const appDesignProjects = [
+  {
+    name: "air filter",
+    description:
+      "Solving the problem of poor indoor air quality by filtering the air",
+  },
+  {
+    name: "eyecam",
+    description:
+      "Product that lets you edit your favorite photos and videos at any time",
+  },
+  {
+    name: "face it",
+    description:
+      "Get to meet your favorite internet superstar with the faceit app",
+  },
+  {
+    name: "todo",
+    description: "A todo app that features cloud sync with light and dark mode",
+  },
+  {
+    name: "loopstudios",
+    description: "A VR experience app made for Loopstudios",
+  },
+];
+
+export const graphicDesignheaderContent = {
+  title: "graphic design",
+  description:
+    "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
+};
+
+export const graphicDesignProjects = [
+  {
+    name: "tim brown",
+    description: "A book cover designed for Tim Brown's new release, 'Change'",
+  },
+  {
+    name: "boxed water",
+    description: "A simple packaging concept made for Boxed Water",
+  },
+  {
+    name: "science!",
+    description: "A poster made in collaboration with the Federal Art Project",
   },
 ];
 

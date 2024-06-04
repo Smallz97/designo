@@ -1,6 +1,7 @@
 .aboutpageHeader {
-  color: var(--white);
+  height: 44.6875rem;
   text-align: center;
+  color: var(--white);
   background: var(--peach);
 }
 
@@ -22,11 +23,65 @@
   font-size: 2rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
-  font-weight: var(--normal-font);
+  font-weight: var(--medium-font);
 }
 
 .aboutpageHeader .textwrapper .text {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: var(--small-font);
+}
+
+@media screen and (min-width: 45rem) {
+  .aboutpageHeader {
+    height: 39.5rem;
+    border-radius: 0.9375rem;
+  }
+
+  .aboutpageHeader .imageContainer img {
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+  }
+
+  .aboutpageHeader .textwrapper {
+    padding: 4rem 3.63rem;
+  }
+
+  .aboutpageHeader .textwrapper .heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .aboutpageHeader .textwrapper .text {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .aboutpageHeader {
+    height: 30rem;
+    display: flex;
+    text-align: left;
+    flex-direction: row-reverse;
+  }
+
+  .aboutpageHeader .imageContainer {
+    height: 100%;
+    flex-basis: 42.84442%;
+  }
+
+  .aboutpageHeader .imageContainer img {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.9375rem;
+  }
+
+  .aboutpageHeader .textwrapper {
+    display: flex;
+    padding: 0 5.44rem;
+    flex-basis: 57.1157%;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

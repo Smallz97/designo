@@ -1,4 +1,5 @@
 .servicespageHeader {
+  height: 20rem;
   color: var(--white);
   text-align: center;
   padding: 6.56rem 1.5rem;
@@ -7,15 +8,40 @@
 
 .servicespageHeader .heading {
   font-size: 2rem;
-  font-style: normal;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
   text-transform: capitalize;
   font-weight: var(--medium-font);
 }
 
-.servicepageHeader .text {
+.servicespageHeader .text {
   font-size: 0.9375rem;
   line-height: 1.5625rem;
   font-weight: var(--small-font);
+}
+
+@media screen and (min-width: 45rem) {
+  .servicespageHeader {
+    height: 15.75rem;
+    padding: 4rem 1.5rem;
+    border-radius: 0.9375rem;
+  }
+
+  .servicespageHeader .heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .servicespageHeader .text {
+    font-size: 1rem;
+    padding: 0 7rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .servicespageHeader .text {
+    padding: 0 10rem;
+  }
 }

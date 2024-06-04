@@ -1,9 +1,10 @@
 import { qualitiesIllustrations } from "../../../assets/data/data";
 import Illustration from "../illustration/Illustration";
+import styles from "./QualitiesIllustrationsList.module.css";
 
 const QualitiesIllustrationsList = () => {
     return (
-        <>
+        <div className={styles.qualitiesIllustrationsList}>
             {
                 qualitiesIllustrations.map((illustration, index) => {
                     return (
@@ -17,7 +18,7 @@ const QualitiesIllustrationsList = () => {
                     );
                 })
             }
-        </>
+        </div>
     )
 }
 

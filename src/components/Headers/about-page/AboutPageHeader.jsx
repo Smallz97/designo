@@ -2,7 +2,7 @@ import Image from '../../../assets/images/header-images/about.png'
 
 import styles from './AboutPageHeader.module.css'
 
-const AboutPageBanner = () => {
+const AboutPageHeader = () => {
     return (
         <div className={styles.aboutpageHeader}>
             <div className={styles.imageContainer}>
@@ -18,4 +18,4 @@ const AboutPageBanner = () => {
     )
 }
 
-export default AboutPageBanner
+export default AboutPageHeader

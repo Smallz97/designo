@@ -14,14 +14,14 @@ export const AboutUs = () => {
             <section id='header-section'>
                 <Header />
             </section>
-            <section id='image-section'>
-                <ImageCard image={FirstImage} title={imageText[0].name} text={imageText[0].text} />
+            <section id='image-section' className={styles.firstImageSection}>
+                <ImageCard image={FirstImage} title={imageText[0].name} text={imageText[0].text} place={`first`} />
             </section>
             <section id='location-illustraions-section' className={styles.locationsIllustrationsSection}>
                 <LocationsIllustrationsList />
             </section>
             <section id='image-section' className={styles.secondImageSection}>
-                <ImageCard image={SecondImage} title={imageText[1].name} text={imageText[1].text} />
+                <ImageCard image={SecondImage} title={imageText[1].name} text={imageText[1].text} place={`second`} />
             </section>
         </div>
     )

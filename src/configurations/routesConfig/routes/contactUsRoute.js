@@ -1,5 +1,5 @@
 let ContactUsRoute = {
-  path: "/contact-us",
+  path: "/contact",
   async lazy() {
     let { ContactUs } = await import("../../../pages/app/contact-us/ContactUs");
     return { Component: ContactUs };

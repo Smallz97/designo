@@ -6,7 +6,7 @@ import styles from './ServicesList.module.css'
 const ServicesList = ({ excludeService }) => {
     const filteredServices = services.filter(service => service.name !== excludeService);
     return (
-        <div className={styles.services}>
+        <div className={`${styles.servicesList} ${filteredServices.length === 2 ? styles.twoItems : ''}`}>
             {
                 filteredServices.map((service, index) => {
                     return (

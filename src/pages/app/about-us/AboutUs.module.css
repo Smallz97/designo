@@ -11,3 +11,30 @@
 .secondImageSection {
   padding-top: 7.5rem;
 }
+
+@media screen and (min-width: 45rem) {
+  .aboutUsPage {
+    padding: 0 2.5rem 24rem 2.5rem;
+  }
+
+  .firstImageSection {
+    padding-top: 7.5rem;
+  }
+
+  .locationsIllustrationsSection {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .aboutUsPage {
+    padding: 0 10.25rem 23.75rem 10.25rem;
+  }
+
+  .firstImageSection,
+  .secondImageSection,
+  .locationsIllustrationsSection {
+    padding-top: 10rem;
+  }
+}

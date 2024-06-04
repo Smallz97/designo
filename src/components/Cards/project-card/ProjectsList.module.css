@@ -1,0 +1,7 @@
+@media screen and (min-width: 65rem) {
+  .projectsList {
+    display: grid;
+    gap: 2rem 1.94rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

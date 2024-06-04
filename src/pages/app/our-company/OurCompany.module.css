@@ -1,5 +1,5 @@
 .homepage {
-  padding-bottom: 19.40375rem;
+  padding-bottom: 19.44rem;
 }
 
 .servicesSection {
@@ -11,4 +11,27 @@
 .qualitiesIllustrationsSection {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .homepage {
+    padding: 0 2.5rem 20.69rem 2.5rem;
+  }
+
+  .servicesSection,
+  .qualitiesIllustrationsSection {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .homepage {
+    padding: 0 10.25rem 23.75rem 10.25rem;
+  }
+
+  .servicesSection {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 }
