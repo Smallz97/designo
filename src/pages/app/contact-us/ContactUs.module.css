@@ -1,0 +1,19 @@
+.contactUsPage {
+  padding-bottom: 19.34375rem;
+}
+
+.locationsIllustrationsSection {
+  padding-top: 7.5rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .contactUsPage {
+    padding: 0 2.5rem 24rem 2.5rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .contactUsPage {
+    padding: 0 10.25rem 23.75rem 10.25rem;
+  }
+}

@@ -1,8 +1,8 @@
 import styles from './ProjectCard.module.css'
 
-const ProjectCard = ({ image, name, description }) => {
+const ProjectCard = ({ image, name, description, type }) => {
     return (
-        <div className={styles.projectCard}>
+        <div className={`${styles.projectCard} ${type === 'app' ? styles.appProjectCard : ""}`}>
             <div className={styles.imageContainer}>
                 <img src={image} alt={`${name}'s project image`} />
             </div>

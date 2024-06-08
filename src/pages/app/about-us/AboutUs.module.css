@@ -4,8 +4,6 @@
 
 .locationsIllustrationsSection {
   padding-top: 7.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .secondImageSection {
@@ -19,11 +17,6 @@
 
   .firstImageSection {
     padding-top: 7.5rem;
-  }
-
-  .locationsIllustrationsSection {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 

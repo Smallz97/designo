@@ -1,0 +1,125 @@
+.contactForm {
+  text-align: center;
+  color: var(--white);
+  padding: 4.5rem 1.5rem;
+  background: var(--peach);
+}
+
+.formHeading {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: var(--medium-font);
+}
+
+.formDescription {
+  margin-bottom: 3rem;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: var(--small-font);
+}
+
+.formWrapper {
+  gap: 1.56rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrapper {
+  display: flex;
+  border-bottom: 1px solid var(--white);
+}
+
+.inputField {
+  width: 100%;
+  border: none;
+  color: var(--white);
+  font-size: 0.9375rem;
+  padding-left: 0.86rem;
+  line-height: 1.625rem;
+  background: transparent;
+  padding-bottom: 0.69rem;
+  font-weight: var(--medium-font);
+}
+
+.inputWrapper:nth-child(4) .inputField {
+  padding-bottom: 4.75rem;
+}
+
+.inputField::placeholder {
+  opacity: 0.5;
+  color: var(--white);
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.textarea {
+  resize: none;
+}
+
+.formButton {
+  text-align: center;
+}
+
+@media screen and (min-width: 45rem) {
+  .contactForm {
+    text-align: left;
+    height: 44.4375rem;
+    border-radius: 0.9375rem;
+    padding: 4.44rem 3.62rem;
+  }
+
+  .formHeading {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .formDescription {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.625rem;
+  }
+
+  .inputField {
+    padding-left: 1.51rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .formButton {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .contactForm {
+    padding: 0;
+    gap: 5.95rem;
+    height: 30rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .formTextWrapper {
+    flex-basis: 45.054%;
+    margin-top: 8.44rem;
+    margin-left: 5.94rem;
+  }
+
+  .formDescription {
+    margin-bottom: 0;
+  }
+
+  .formWrapper {
+    margin-right: 6rem;
+    margin-top: 3.44rem;
+    flex-basis: 34.2034%;
+  }
+
+  .inputField {
+    padding-left: 1rem;
+    font-weight: var(--large-font);
+  }
+}

@@ -1,5 +1,5 @@
 import AppLayout from "../../components/Layout/AppLayout";
-import OurCompanyRoute from "./routes/ourCompanyRoute";
+import HomeRoute from "./routes/homeRoute";
 import LocationsRoute from "./routes/locationsRoute";
 import ContactUsRoute from "./routes/contactUsRoute";
 import AboutUsRoute from "./routes/aboutUsRoute";
@@ -10,7 +10,7 @@ import GraphicDesignRoute from "./routes/graphicDesignRoute";
 let Applayout = {
   Component: AppLayout,
   children: [
-    OurCompanyRoute,
+    HomeRoute,
     LocationsRoute,
     ContactUsRoute,
     AboutUsRoute,

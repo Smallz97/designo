@@ -18,7 +18,7 @@ const Footer = () => {
                         Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
                     </div>
                 </div>
-                <Link to='/contact-us'>
+                <Link to='/contact'>
                     <Button text={`get in touch`} textColor={`#333136`} backgroundColor={`#FFFFFF`} />
                 </Link>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <div className={styles.footerLinksWrapper}>
                         {navLinks.map((navlink, index) => (
                             <div key={index} className={styles.footerLink}>
-                                <NavLink to={navlink === 'our company' ? '/' : `/${navlink}`} className={styles.navlink}>{navlink}</NavLink>
+                                <NavLink to={navlink === 'our company' ? '/about-us' : `/${navlink}`} className={styles.navlink}>{navlink}</NavLink>
                             </div>
                         ))}
                     </div>

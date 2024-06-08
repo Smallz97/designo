@@ -14,19 +14,24 @@
 }
 
 @media screen and (min-width: 45rem) {
+  .servicePage {
+    padding: 0 2.5rem 23.38rem 2.5rem;
+  }
+
   .portfolioSection,
   .otherServicesSection {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .servicePage {
-    padding: 0 2.5rem 23.38rem 2.5rem;
   }
 }
 
 @media screen and (min-width: 65rem) {
   .servicePage {
     padding: 0 10.31rem 23.75rem 10.31rem;
+  }
+
+  .portfolioSection {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }

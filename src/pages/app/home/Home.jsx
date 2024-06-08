@@ -1,14 +1,14 @@
-import Header from '../../../components/Headers/our-company/OurCompanyHeader'
+import HomePageHeader from '../../../components/Headers/home-page/HomePageHeader'
 import ServicesList from '../../../components/Cards/service-card/ServicesList'
 import QualitiesIllustrationsList from '../../../components/Illustrations/qualities-illustrations-list/QualitiesIllustrationsList'
 
-import styles from './OurCompany.module.css'
+import styles from './Home.module.css'
 
 const Home = () => {
     return (
         <div className={styles.homepage}>
             <section id='header-section'>
-                <Header />
+                <HomePageHeader />
             </section>
             <section id='services-section' className={styles.servicesSection}>
                 <ServicesList />

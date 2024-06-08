@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className={styles.navLinksWrapper}>
                 {navLinks.map((navlink, index) => (
                     <div key={index} className={styles.navbarLink}>
-                        <NavLink to={navlink === 'our company' ? '/' : `/${navlink}`} className={styles.navlink}>{navlink}</NavLink>
+                        <NavLink to={navlink === 'our company' ? '/about-us' : `/${navlink}`} className={styles.navlink}>{navlink}</NavLink>
                     </div>
                 ))}
             </div>

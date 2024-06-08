@@ -22,23 +22,23 @@
   border-top-right-radius: 0.9375rem;
 }
 
-.projectCard:first-child .imageContainer img {
+.appProjectCard.projectCard:first-child .imageContainer img {
   background-color: var(--first-project-card);
 }
 
-.projectCard:nth-child(2) .imageContainer img {
+.appProjectCard.projectCard:nth-child(2) .imageContainer img {
   background-color: var(--second-project-card);
 }
 
-.projectCard:nth-child(3) .imageContainer img {
+.appProjectCard.projectCard:nth-child(3) .imageContainer img {
   background-color: var(--third-project-card);
 }
 
-.projectCard:nth-child(4) .imageContainer img {
+.appProjectCard.projectCard:nth-child(4) .imageContainer img {
   background-color: var(--fourth-project-card);
 }
 
-.projectCard:last-child .imageContainer img {
+.appProjectCard.projectCard:last-child .imageContainer img {
   background-color: var(--fifth-project-card);
 }
 
@@ -122,7 +122,7 @@
   .projectDetails {
     display: block;
     height: 9.875rem;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
 
   .projectDescription {

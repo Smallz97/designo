@@ -23,7 +23,7 @@ export const GraphicDesign = () => {
                 <Header title={graphicDesignheaderContent.title} description={graphicDesignheaderContent.description} />
             </section>
             <section id='portfolio-section' className={styles.portfolioSection}>
-                <ProjectsList projects={graphicDesignProjects} images={imagesList} />
+                <ProjectsList projects={graphicDesignProjects} images={imagesList} type={`graphics`} />
             </section>
             <section id='other-services-section' className={styles.otherServicesSection}>
                 <ServicesList excludeService={`graphic design`} />

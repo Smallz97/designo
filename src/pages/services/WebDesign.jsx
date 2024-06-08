@@ -29,7 +29,7 @@ export const WebDesign = () => {
                 <Header title={webDesignheaderContent.title} description={webDesignheaderContent.description} />
             </section>
             <section id='portfolio-section' className={styles.portfolioSection}>
-                <ProjectsList projects={webDesignProjects} images={imagesList} />
+                <ProjectsList projects={webDesignProjects} images={imagesList} type={`web`} />
             </section>
             <section id='other-services-section' className={styles.otherServicesSection}>
                 <ServicesList excludeService={`web design`} />

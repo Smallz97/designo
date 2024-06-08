@@ -27,7 +27,7 @@ export const AppDesign = () => {
                 <Header title={appDesignheaderContent.title} description={appDesignheaderContent.description} />
             </section>
             <section id='portfolio-section' className={styles.portfolioSection}>
-                <ProjectsList projects={appDesignProjects} images={imagesList} />
+                <ProjectsList projects={appDesignProjects} images={imagesList} type={`app`} />
             </section>
             <section id='other-services-section' className={styles.otherServicesSection}>
                 <ServicesList excludeService={`app design`} />
