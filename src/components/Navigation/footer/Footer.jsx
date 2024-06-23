@@ -1,7 +1,6 @@
 import Logo from '../../../assets/logo/logo.png'
 import { navLinks } from '../../../assets/data/data'
 import Button from '../../Buttons/Button';
-import { NavLink } from 'react-router-dom';
 import { FacebookIcon, YoutubeIcon, TwitterIcon, PinterestIcon, InstagramIcon } from '../../../assets/icons/Icons'
 import styles from './Footer.module.css'
 import { Link } from 'react-router-dom';
@@ -18,7 +17,7 @@ const Footer = () => {
                         Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
                     </div>
                 </div>
-                <Link to='/contact'>
+                <Link to='/contact' className={styles.getInTouchLink}>
                     <Button text={`get in touch`} textColor={`#333136`} backgroundColor={`#FFFFFF`} />
                 </Link>
             </div>
@@ -27,14 +26,14 @@ const Footer = () => {
                     <div className={styles.brand}>
                         <img src={Logo} alt="brand logo" className={styles.logo} />
                         <div className={styles.brandName}>
-                            <NavLink to="/" className={styles.navlink}>designo</NavLink>
+                            <Link to="/" className={styles.navlink}>designo</Link>
                         </div>
                     </div>
                     <hr className={`${styles.horizontalLine} ${styles.firstLine}`} />
                     <div className={styles.footerLinksWrapper}>
                         {navLinks.map((navlink, index) => (
                             <div key={index} className={styles.footerLink}>
-                                <NavLink to={navlink === 'our company' ? '/about-us' : `/${navlink}`} className={styles.navlink}>{navlink}</NavLink>
+                                <Link to={navlink === 'our company' ? '/about-us' : `/${navlink}`} className={styles.navlink}>{navlink}</Link>
                             </div>
                         ))}
                     </div>

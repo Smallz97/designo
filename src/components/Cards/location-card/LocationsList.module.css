@@ -1,0 +1,9 @@
+.locations:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .locations:not(:last-child) {
+    margin-bottom: 7.5rem;
+  }
+}

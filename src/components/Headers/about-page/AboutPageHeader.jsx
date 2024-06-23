@@ -1,4 +1,4 @@
-import Image from '../../../assets/images/header-images/about.png'
+import Image from '../../../assets/images/aboutpage-images/header-image.png'
 
 import styles from './AboutPageHeader.module.css'
 

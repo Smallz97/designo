@@ -1,0 +1,15 @@
+.locationspage {
+  padding-bottom: 19.44rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .locationspage {
+    padding: 0 2.44rem 24em 2.44rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .locationspage {
+    padding: 0 10.31rem 23.75em 10.31rem;
+  }
+}

@@ -18,7 +18,7 @@ const LocationsIllustrationsList = () => {
                                 name={locationsIllustrations[index].name}
                                 imageLink={locationsIllustrations[index].imageLink}
                             />
-                            <Link>
+                            <Link to={"/locations"}>
                                 <Button text={`see location`} textColor={`#FFFFFF`} backgroundColor={`#E7816B`} />
                             </Link>
                         </div>

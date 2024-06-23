@@ -1,6 +1,6 @@
 import Button from '../../Buttons/Button'
 import { Link } from 'react-router-dom'
-import Image from '../../../assets/images/header-images/phone.png'
+import Image from '../../../assets/images/homepage-images/phone.png'
 
 import styles from './HomePageHeader.module.css'
 

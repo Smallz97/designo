@@ -1,10 +1,13 @@
+import LocationsList from "../../../components/Cards/location-card/LocationsList"
+import styles from './Locations.module.css'
 import { Component } from "react"
-import { NavLink } from "react-router-dom"
+
 export const Locations = () => {
     return (
-        <div>
-            This is the Locations Page
-            <NavLink to="/contacts">Click</NavLink>
+        <div className={styles.locationspage}>
+            <section id='locationslist-section'>
+                <LocationsList />
+            </section>
         </div>
     )
 }
