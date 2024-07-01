@@ -1,7 +1,10 @@
 .imageCard {
   height: 54.0625rem;
   text-align: center;
-  background-color: var(--cream);
+  background-image: url("/assets/imageCards/mobileBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .imageCard .imageContainer {
@@ -41,6 +44,9 @@
   .imageCard {
     height: 46rem;
     border-radius: 0.9375rem;
+    background-image: url("/assets/imageCards/tabletBackground.png");
+    background-position: center;
+    background-size: cover;
   }
 
   .imageCard .imageContainer img {
@@ -68,10 +74,12 @@
     height: 40rem;
     display: flex;
     text-align: left;
+    background-image: url("/assets/imageCards/firstDesktopBackground.png");
   }
 
   .secondImageCard {
     flex-direction: row-reverse;
+    background-image: url("/assets/imageCards/secondDesktopBackground.png");
   }
 
   .imageCard .imageContainer {

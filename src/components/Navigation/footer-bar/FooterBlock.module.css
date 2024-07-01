@@ -1,34 +1,9 @@
-.footer {
-  text-align: center;
-  color: var(--white);
-  background: var(--black);
-  padding: 0 1.5rem 4rem 1.5rem;
-}
-
-.getInTouch {
-  height: 23.6875rem;
-  padding: 4rem 1.5rem;
-  background: var(--peach);
-  border-radius: 0.9375rem;
-  transform: translateY(-11.88rem);
-}
-
-.getInTouch .heading {
-  font-size: 2rem;
-  line-height: 2.25rem;
-  margin-bottom: 0.38rem;
-  font-weight: var(--medium-font);
-}
-
-.getInTouch .text {
-  margin-bottom: 2rem;
-  font-size: 0.9375rem;
-  line-height: 1.5625rem;
-  font-weight: var(--small-font);
-}
-
 .footerBar {
   margin-top: -7.88rem;
+}
+
+.contactpageFooterBar {
+  margin-top: 0;
 }
 
 .footerNavlinks {
@@ -116,31 +91,12 @@
 }
 
 @media screen and (min-width: 45rem) {
-  .footer {
-    padding: 0 2.44rem 5rem 2.44rem;
-  }
-
-  .getInTouch {
-    height: 21.875rem;
-    padding: 3.56rem 0;
-    transform: translateY(-16.5rem);
-  }
-
-  .getInTouch .heading {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    padding: 0 11.06rem;
-    margin-bottom: 1rem;
-  }
-
-  .getInTouch .text {
-    font-size: 1rem;
-    padding: 0 3.63rem;
-    line-height: 1.625rem;
-  }
-
   .footerBar {
     margin-top: -11.5rem;
+  }
+
+  .contactpageFooterBar {
+    margin-top: 0;
   }
 
   .footerNavlinks {
@@ -194,34 +150,11 @@
 }
 
 @media screen and (min-width: 65rem) {
-  .footer {
-    padding: 0 10.31rem 4.5rem 10.31rem;
-  }
-
-  .getInTouch {
-    display: flex;
-    height: 18.25rem;
-    text-align: left;
-    align-items: center;
-    padding: 4.5rem 5.94rem;
-    justify-content: space-between;
-    transform: translateY(-13.75rem);
-  }
-
-  .getInTouchTextWrapper {
-    width: 28.6875rem;
-    /* flex-basis: 41.3141%; */
-  }
-
-  .getInTouch .heading {
-    padding: 0;
-  }
-
-  .getInTouch .text {
-    padding: 0;
-  }
-
   .footerBar {
     margin-top: -9.25rem;
+  }
+
+  .contactpageFooterBar {
+    margin-top: 0;
   }
 }

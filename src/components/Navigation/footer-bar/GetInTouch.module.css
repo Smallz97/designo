@@ -1,0 +1,69 @@
+.getInTouch {
+  height: 23.6875rem;
+  padding: 4rem 1.5rem;
+  border-radius: 0.9375rem;
+  transform: translateY(-11.88rem);
+  background: url("/assets/footer/mobileBackground.png") center no-repeat;
+}
+
+.getInTouch .heading {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  margin-bottom: 0.38rem;
+  font-weight: var(--medium-font);
+}
+
+.getInTouch .text {
+  margin-bottom: 2rem;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  font-weight: var(--small-font);
+}
+
+@media screen and (min-width: 45rem) {
+  .getInTouch {
+    height: 21.875rem;
+    padding: 3.56rem 0;
+    transform: translateY(-16.5rem);
+    background: url("/assets/footer/tabletBackground.png") center no-repeat;
+  }
+
+  .getInTouch .heading {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 11.06rem;
+    margin-bottom: 1rem;
+  }
+
+  .getInTouch .text {
+    font-size: 1rem;
+    padding: 0 3.63rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .getInTouch {
+    display: flex;
+    height: 18.25rem;
+    text-align: left;
+    align-items: center;
+    padding: 4.5rem 5.94rem;
+    justify-content: space-between;
+    transform: translateY(-13.75rem);
+    background: url("/assets/footer/desktopBackground.png") center no-repeat;
+  }
+
+  .getInTouchTextWrapper {
+    width: 28.6875rem;
+    /* flex-basis: 41.3141%; */
+  }
+
+  .getInTouch .heading {
+    padding: 0;
+  }
+
+  .getInTouch .text {
+    padding: 0;
+  }
+}

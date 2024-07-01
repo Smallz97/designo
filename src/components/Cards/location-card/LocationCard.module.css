@@ -4,7 +4,7 @@
 
 .map {
   height: 20rem;
-  background: var(--peach);
+  background: lightgoldenrodyellow;
 }
 
 .textWrapper {
@@ -100,6 +100,10 @@
     gap: 1.87rem;
     display: flex;
     height: 20.375rem;
+    flex-direction: row-reverse;
+  }
+
+  .reversed {
     flex-direction: row;
   }
 

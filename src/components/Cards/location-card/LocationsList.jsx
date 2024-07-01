@@ -7,7 +7,7 @@ const LocationsList = () => {
         <>
             {locationsArray.map((location, index) => (
                 <div key={index} className={styles.locations}>
-                    <LocationCard location={location} />
+                    <LocationCard location={location} reversed={index == 1} />
                 </div>
             ))}
         </>

@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+  color: var(--white);
+  background: var(--black);
+  padding: 0 1.5rem 4rem 1.5rem;
+}
+
+.contactpageFooter {
+  padding: 4rem 1.5rem 4rem 1.5rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .footer {
+    padding: 0 2.44rem 5rem 2.44rem;
+  }
+
+  .contactpageFooter {
+    padding: 5rem 2.44rem 5rem 2.44rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .footer {
+    padding: 0 10.31rem 4.5rem 10.31rem;
+  }
+
+  .contactpageFooter {
+    padding: 4.5rem 10.31rem 4.5rem 10.31rem;
+  }
+}

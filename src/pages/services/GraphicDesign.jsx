@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Header from '../../components/Headers/service-pages/ServicePageHeader'
+import Header from '../../components/Headers/service-page/ServicePageHeader'
 import { graphicDesignheaderContent } from '../../assets/data/data'
 import ProjectsList from '../../components/Cards/project-card/ProjectsList'
 import { graphicDesignProjects } from '../../assets/data/data'

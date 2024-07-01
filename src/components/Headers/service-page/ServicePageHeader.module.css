@@ -1,9 +1,12 @@
 .servicespageHeader {
   height: 20rem;
-  color: var(--white);
   text-align: center;
+  color: var(--white);
   padding: 6.56rem 1.5rem;
-  background: var(--peach);
+  background-image: url("/assets/headers/service-pages/mobileBackground.png");
+  background-color: var(--peach);
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 .servicespageHeader .heading {
@@ -25,6 +28,8 @@
     height: 15.75rem;
     padding: 4rem 1.5rem;
     border-radius: 0.9375rem;
+    background-image: url("/assets/headers/service-pages/tabletBackground.png");
+    background-position: auto;
   }
 
   .servicespageHeader .heading {
@@ -41,6 +46,10 @@
 }
 
 @media screen and (min-width: 65rem) {
+  .servicespageHeader {
+    background-image: url("/assets/headers/service-pages/desktopBackground.png");
+  }
+
   .servicespageHeader .text {
     padding: 0 10rem;
   }

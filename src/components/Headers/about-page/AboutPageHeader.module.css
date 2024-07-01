@@ -2,7 +2,11 @@
   height: 44.6875rem;
   text-align: center;
   color: var(--white);
-  background: var(--peach);
+  background-image: url("/assets/headers/about/mobileBackground.png");
+  background-color: var(--peach);
+  /* background-position: top right; */
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .aboutpageHeader .imageContainer {
@@ -36,6 +40,9 @@
   .aboutpageHeader {
     height: 39.5rem;
     border-radius: 0.9375rem;
+    background-image: url("/assets/headers/about/tabletBackground.png");
+    background-position: center;
+    background-size: cover;
   }
 
   .aboutpageHeader .imageContainer img {
@@ -65,6 +72,7 @@
     display: flex;
     text-align: left;
     flex-direction: row-reverse;
+    background-image: url("/assets/headers/about/desktopBackground.png");
   }
 
   .aboutpageHeader .imageContainer {
