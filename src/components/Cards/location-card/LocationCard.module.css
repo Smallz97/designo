@@ -15,7 +15,10 @@
   flex-direction: column;
   justify-content: center;
   color: var(--dark-grey);
+  background-image: url("/assets/locationCards/mobileBackground.png");
   background-color: var(--cream);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .country {
@@ -60,8 +63,14 @@
 
   .map,
   .textWrapper {
+    overflow: hidden;
     height: 20.375rem;
     border-radius: 0.9375rem;
+  }
+
+  .textWrapper {
+    background-image: url("/assets/locationCards/tabletBackground.png");
+    background-size: contain;
   }
 
   .textWrapper {

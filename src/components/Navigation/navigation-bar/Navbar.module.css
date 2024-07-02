@@ -24,13 +24,42 @@
   font-weight: var(--large-font);
 }
 
-.navLinksWrapper {
-  display: none;
+.navlink {
+  color: var(--dark-grey);
 }
 
+.mobilelink,
 .navlink {
   text-decoration: none;
-  color: var(--dark-grey);
+}
+
+.mobileMenu {
+  left: 0;
+  right: 0;
+  gap: 2rem;
+  z-index: 2;
+  top: 6.3rem;
+  display: flex;
+  position: absolute;
+  padding: 3rem 1.5rem;
+  flex-direction: column;
+  background-color: var(--black);
+}
+
+.mobileNavLink {
+  font-size: 1.5rem;
+  line-height: 1.5625rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  font-weight: var(--small-font);
+}
+
+.mobilelink {
+  color: var(--white);
+}
+
+.navLinksWrapper {
+  display: none;
 }
 
 @media screen and (min-width: 45rem) {
@@ -38,7 +67,7 @@
     padding: 4rem 2.5rem;
   }
 
-  .hamburger {
+  .mobileNavLinksWrapper {
     display: none;
   }
 

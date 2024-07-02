@@ -2,7 +2,7 @@ import { APIProvider, Map } from '@vis.gl/react-google-maps';
 import styles from './LocationCard.module.css'
 
 const LocationCard = ({ location, reversed }) => {
-    const { country, address, contact } = location;
+    const { country, address, contact, coordinates } = location;
     const addressParagraphs = address.split('\n');
     const contactParagraphs = contact.split('\n');
 
@@ -15,10 +15,10 @@ const LocationCard = ({ location, reversed }) => {
             <div className={styles.map}>
                 <APIProvider apiKey={apiKey}>
                     <Map
-                        defaultCenter={{ lat: -33.860664, lng: 151.208138 }}
-                        defaultZoom={11}
-                        gestureHandling={'greedy'}
+                        defaultZoom={13}
                         disableDefaultUI={true}
+                        gestureHandling={'greedy'}
+                        defaultCenter={coordinates}
                     />
                 </APIProvider>
             </div>

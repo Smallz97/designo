@@ -157,16 +157,19 @@ export const locationsArray = [
     address:
       "designo central office\n3886 Wellington Street\nToronto, Ontario M9C 3J5",
     contact: "contact\nP : +1 253-863-8967\nM : contact@designo.co",
+    coordinates: { lat: 43.7223346, lng: -79.22182529999999 },
   },
   {
     country: "australia",
     address: "designo au Office\n9 Balonne Street\nNew South Wales 2443",
     contact: "contact\nP : (02) 6720 9092\nM : contact@designo.au",
+    coordinates: { lat: -33.1144553, lng: 151.6365791 },
   },
   {
     country: "united kingdom",
     address: "designo uk Office\n13 Colorado Way\nRhyd-y-fro SA8 9GA",
     contact: "contact\nP : 078 3115 1400\nM : contact@designo.uk",
+    coordinates: { lat: 53.73217709999999, lng: -1.3226202 },
   },
 ];
 
